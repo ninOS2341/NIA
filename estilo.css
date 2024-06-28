@@ -1,0 +1,106 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+sub{
+    font-size: 15px;
+}
+
+body{
+    background-color: #9b9292;
+}
+
+header{
+    transition: 1s;
+    display: grid;
+    height: 10vh;
+    align-items: center;
+    justify-items: center;
+   
+}
+
+#titulo{
+    transition: .5s;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    width: 50%;
+    
+}
+
+header:hover{
+    transition: 1s;
+    background-color: black;
+}
+
+header:hover > #titulo{
+    background-color: #fff;
+    color: black;
+}
+
+aside{
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    margin: 5px;
+}
+aside h2{
+    margin: 10px;
+    text-align: center;
+}
+aside a{
+    display: grid;
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+}
+
+main{
+    background-color: rgb(49, 42, 42);
+    color: #fff;
+    height: 100vh;
+}
+main h2{
+    text-align: center;
+}
+
+main p{
+    text-align: center;
+    margin: 10px;
+}
+
+footer{
+    transition: 1s;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    image-rendering: pixelated;
+}
+
+.logo{
+    transition: 1s;
+    height: 50vh;
+    cursor: pointer;
+}
+footer:hover{
+    transition: 1s;
+    background-color: rgb(49, 42, 42);
+}
+.logo:hover{
+    transition: 1s;
+    height: 55vh;
+}
+
